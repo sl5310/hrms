@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.1.final using JasperReports Library version 6.1.1  -->
+<!-- 2015-10-16T10:19:25 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="view_employee" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="07a89c15-4784-4da5-83f5-4af93ad1d61e">
+	<parameter name="employee_id" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[new java.lang.Integer(0)]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT * ,
+		hrms_gsettings.`name` AS company_name
+		FROM hrms_employee 
+		INNER JOIN `hrms_gsettings` ON hrms_gsettings.organization_id = hrms_employee.organization_id
+		WHERE employee_id = $P{employee_id}]]>
+	</queryString>
+	<field name="company_name" class="java.lang.String"/>
+	<title>
+		<band height="28" splitType="Stretch">
+			<image onErrorType="Icon">
+				<reportElement x="7" y="0" width="40" height="30" uuid="652efb5a-f116-498a-b41f-b1047716969e"/>
+				<imageExpression><![CDATA["../upload/logo/apptivate.jpg"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="50" y="5" width="171" height="20" uuid="310e2fd9-2896-453f-928b-553eb06cfacf"/>
+				<textElement textAlignment="Left">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{company_name}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="32" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="550" height="20" uuid="90f5e0e8-ac0b-4a92-b807-3c2ad7361a6c"/>
+				<textElement textAlignment="Center">
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Employee Information]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

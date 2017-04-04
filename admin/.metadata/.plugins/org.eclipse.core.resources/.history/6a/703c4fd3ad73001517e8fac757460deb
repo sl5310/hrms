@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.1.final using JasperReports Library version 6.1.1  -->
+<!-- 2015-10-16T10:29:15 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="view_employee" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="07a89c15-4784-4da5-83f5-4af93ad1d61e">
+	<parameter name="employee_id" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[new java.lang.Integer(0)]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT * ,
+		hrms_gsettings.`name` AS company_name
+		FROM hrms_employee 
+		INNER JOIN `hrms_gsettings` ON hrms_gsettings.organization_id = hrms_employee.organization_id
+		WHERE employee_id = $P{employee_id}]]>
+	</queryString>
+	<field name="company_name" class="java.lang.String"/>
+	<title>
+		<band height="28" splitType="Stretch">
+			<image onErrorType="Icon">
+				<reportElement x="7" y="0" width="40" height="30" uuid="652efb5a-f116-498a-b41f-b1047716969e"/>
+				<imageExpression><![CDATA["../upload/logo/apptivate.jpg"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="50" y="5" width="171" height="20" uuid="310e2fd9-2896-453f-928b-553eb06cfacf"/>
+				<textElement textAlignment="Left">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{company_name}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="271" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="1" width="550" height="20" uuid="90f5e0e8-ac0b-4a92-b807-3c2ad7361a6c"/>
+				<textElement textAlignment="Center">
+					<font size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Employee Information]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="51" width="80" height="20" uuid="47b1f76d-89f4-491f-84fe-2f0b1b835701"/>
+				<text><![CDATA[Employee ID]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-1" y="21" width="556" height="1" uuid="ccc7e0d5-b9b3-46fe-af3d-10e26560485c"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="72" width="80" height="20" uuid="58d38094-dd9d-48a2-b04a-fe0c348dc6db"/>
+				<text><![CDATA[Full Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="50" width="80" height="20" uuid="f17f71af-18dc-45cf-98cf-008a7dada2eb"/>
+				<text><![CDATA[Department]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="71" width="80" height="20" uuid="a36f966a-2130-4e90-808a-912dbae82ca1"/>
+				<text><![CDATA[Designation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="30" width="110" height="20" uuid="8ec2cf9e-4c56-44e4-9c21-10734a89fd43"/>
+				<text><![CDATA[A. Personal Details
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="93" width="80" height="20" uuid="68b33af6-993b-47dd-a5d4-2eeb2eaa733d"/>
+				<text><![CDATA[Date of Birth]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="113" width="80" height="20" uuid="244fb30d-f715-46e6-ac7e-98ba440871b2"/>
+				<text><![CDATA[Gender]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="133" width="80" height="20" uuid="5942e9b9-a730-457f-98e9-1d15dd7174f7"/>
+				<text><![CDATA[Marital Status]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="155" width="80" height="20" uuid="6ef35848-26f9-4c8f-9f4e-01b1097367e3"/>
+				<text><![CDATA[Father's Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="177" width="80" height="20" uuid="ea59711b-c9c3-4fca-bbe8-1a2d5b1b944a"/>
+				<text><![CDATA[Nationality]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="199" width="80" height="20" uuid="fca18d7c-6347-4157-aee4-3df355f34231"/>
+				<text><![CDATA[NRIC / Work Pass NO]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+</jasperReport>

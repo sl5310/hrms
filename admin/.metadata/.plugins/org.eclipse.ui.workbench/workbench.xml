@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="10" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" minimized="true" width="1024" x="130" y="130">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="195" y="30"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="53" y="30"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.jaspersoft.studio.server.toolbar" itemType="typeToolBarContribution" x="38" y="30"/>
+<coolItem id="com.jaspersoft.studio.rcp.jssToolbar" itemType="typeToolBarContribution" x="84" y="30"/>
+<coolItem id="com.jaspersoft.studio.community.toolbar" itemType="typeToolBarContribution" x="38" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="30"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="30"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.jaspersoft.studio.editor.JrxmlEditor" itemType="typeToolBarContribution" x="61" y="30"/>
+<coolItem id="com.jaspersoft.studio.graphic.size" itemType="typeToolBarContribution" x="84" y="30"/>
+<coolItem id="com.jaspersoft.studio.graphic.image" itemType="typeToolBarContribution" x="38" y="30"/>
+<coolItem id="com.jaspersoft.studio.graphic.text" itemType="typeToolBarContribution" x="548" y="30"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1444878095714" focus="true" label="Workspace - Report Design">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.jaspersoft.studio.editor.JrxmlEditor" name="pay_slip.jrxml" partName="pay_slip.jrxml" path="C:/Server/WebDocs/aspirez_hrms/admin/pay_slip.jrxml" title="pay_slip.jrxml" tooltip="MyReports/pay_slip.jrxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MyReports/pay_slip.jrxml"/>
+</editor>
+<editor activePart="true" focus="true" id="com.jaspersoft.studio.editor.JrxmlEditor" name="view_employee.jrxml" partName="view_employee.jrxml" path="C:/Server/WebDocs/aspirez_hrms/admin/view_employee.jrxml" title="view_employee.jrxml" tooltip="MyReports/view_employee.jrxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MyReports/view_employee.jrxml"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer"/>
+<view id="com.jaspersoft.studio.Repository" partName="Repository Explorer">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.gef.ui.palette_view" partName="Palette">
+<viewState/>
+</view>
+<view id="com.jaspersoft.studio.editor.preview.reportstate" partName="Report State">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.jaspersoft.studio.editor.preview.reportstate" activePerspective="com.jaspersoft.studio.ReportDesignPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.jaspersoft.studio.ReportDesignPerspective" id="com.jaspersoft.studio.ReportDesignPerspective" label="Report Design"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<hide_menu_item_id id="org.eclipse.ui.run"/>
+<hide_menu_item_id id="org.eclipse.search.menu"/>
+<hide_toolbar_item_id id="org.eclipse.ui.workbench.navigate"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.jaspersoft.studio.Repository"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.gef.ui.palette_view"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="com.jaspersoft.studio.editor.preview.reportstate"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1b0efb2f">
+<folder activePageID="com.jaspersoft.studio.Repository" appearance="2" expanded="2">
+<page content="com.jaspersoft.studio.Repository" label="Repository Explorer"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@70bd0748" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1b0efb2f">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1b0efb2f"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4adc4626" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.gef.ui.palette_view" appearance="2" expanded="2">
+<page content="org.eclipse.gef.ui.palette_view" label="Palette"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@43818f2f" ratio="0.3993808" ratioLeft="258" ratioRight="388" relationship="4" relative="org.eclipse.ui.internal.ViewStack@4adc4626">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@6edf7948" ratio="0.74922603" ratioLeft="484" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.jaspersoft.studio.editor.preview.reportstate" appearance="2" expanded="2">
+<page content="com.jaspersoft.studio.editor.preview.reportstate" label="Report State"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4e8c87a6" ratio="0.7494781" ratioLeft="1077" ratioRight="360" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@748cd889" ratio="0.5" ratioLeft="323" ratioRight="323" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1b0efb2f">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" path="/MyReports/view_employee.jrxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" path="/MyReports/pay_slip.jrxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" path="/MyReports/view_employee.jrxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" path="/MyReports/campaignlistingreport.jrxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" path="/MyReports/businesspartnerlist.jrxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" path="/MyReports/monthlycampaignbytype.jrxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" path="/MyReports/salesquotation.jrxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/MyReports/view_employee.jrxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" path="/MyReports/pay_slip.jrxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" path="/MyReports/profile.jrxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" path="/MyReports/pay_slip.jrxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" path="/MyReports/view_employee.jrxml"/>
+</editors>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="0"/>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="0"/>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="campaignlistingreport.jrxml" index="3"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="campaignlistingreport.jrxml" index="3"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="campaignlistingreport.jrxml" index="3"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="businesspartnerlist.jrxml" index="4"/>
+<item historyLabel="monthlycampaignbytype.jrxml" index="5"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="salesquotation.jrxml" index="6"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="2">
+<position/>
+</item>
+<item historyLabel="view_employee.jrxml" index="7">
+<position/>
+</item>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="pay_slip.jrxml" index="1"/>
+<item historyLabel="view_employee.jrxml" index="2"/>
+<item historyLabel="pay_slip.jrxml" index="8"/>
+<item historyLabel="profile.jrxml" index="9"/>
+<item historyLabel="pay_slip.jrxml" index="10"/>
+<item active="true" historyLabel="view_employee.jrxml" index="11"/>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" name="view_employee.jrxml" tooltip="C:\Server\WebDocs\aspirez_hrms\admin\view_employee.jrxml">
+<persistable uri="file:/C:/Server/WebDocs/aspirez_hrms/admin/view_employee.jrxml"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" name="profile.jrxml" tooltip="C:\Server\WebDocs\aspirez_hrms\employee\profile.jrxml">
+<persistable uri="file:/C:/Server/WebDocs/aspirez_hrms/employee/profile.jrxml"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" name="view_employee.jrxml" tooltip="C:\Server\WebDocs\aspirez_hrms\employee\view_employee.jrxml">
+<persistable uri="file:/C:/Server/WebDocs/aspirez_hrms/employee/view_employee.jrxml"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" name="salesquotation.jrxml" tooltip="C:\Server\WebDocs\simbiz_devtest\modules\bpartner\salesquotation.jrxml">
+<persistable uri="file:/C:/Server/WebDocs/simbiz_devtest/modules/bpartner/salesquotation.jrxml"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" name="monthlycampaignbytype.jrxml" tooltip="C:\Server\WebDocs\simbiz_devtest\modules\bpartner\monthlycampaignbytype.jrxml">
+<persistable uri="file:/C:/Server/WebDocs/simbiz_devtest/modules/bpartner/monthlycampaignbytype.jrxml"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" name="businesspartnerlist.jrxml" tooltip="C:\Server\WebDocs\simbiz_devtest\modules\bpartner\businesspartnerlist.jrxml">
+<persistable uri="file:/C:/Server/WebDocs/simbiz_devtest/modules/bpartner/businesspartnerlist.jrxml"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" name="campaignlistingreport.jrxml" tooltip="C:\Server\WebDocs\simbiz_devtest\modules\bpartner\campaignlistingreport.jrxml">
+<persistable uri="file:/C:/Server/WebDocs/simbiz_devtest/modules/bpartner/campaignlistingreport.jrxml"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" name="pay_slip.jrxml" tooltip="C:\Server\WebDocs\aspirez_hrms\admin\pay_slip.jrxml">
+<persistable uri="file:/C:/Server/WebDocs/aspirez_hrms/admin/pay_slip.jrxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.jaspersoft.studio.editor.JrxmlEditor" name="view_employee.jrxml" tooltip="MyReports/view_employee.jrxml">
+<persistable path="/MyReports/view_employee.jrxml"/>
+</file>
+</mruList>
+</workbench>
